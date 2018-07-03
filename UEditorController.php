@@ -4,16 +4,16 @@
  */
 namespace darcy\ueditor;
 
+use backend\components\BaseController;
 use yii;
 use yii\imagine\Image;
-use yii\web\Controller;
 
 /**
  * Class UEditorController
  * 负责UEditor后台响应
  * @package crazydb\ueditor
  */
-class UEditorController extends Controller {
+class UEditorController extends BaseController {
 	/**
 	 * UEditor的配置
 	 * @see http://fex-team.github.io/ueditor/#start-config
