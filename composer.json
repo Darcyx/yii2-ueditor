@@ -1,0 +1,21 @@
+{
+    "name": "darcy/yii2-ueditor-server",
+    "description": "Yii2的百度UEditor扩展 后端",
+    "type": "yii2-extension",
+    "keywords": ["yii2","ueditor","server"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "darcy",
+            "email": "darxyonw@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2-imagine": "~2.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "darcy\\ueditor\\": ""
+        }
+    }
+}
